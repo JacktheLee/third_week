@@ -1,0 +1,2 @@
+module PineappleHelper
+end
