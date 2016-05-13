@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
-  get 'bean' => 'pineapple#bean'
+  get 'cheese/kimchi'
 
+  get 'bean' => 'pineapple#bean'
+  # get '/bean' => 'pineapple#bean'
+  get '/cheese' => 'cheese#kimchi'
+  get 'pizza' => 'cheese#kimchi'
+  get 'bbq' => 'cheese#kimchi'
+  
+  get 'minari' => 'cheese#minari'
+  
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
